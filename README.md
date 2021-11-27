@@ -1,68 +1,50 @@
-# AetherSX2 FAQ
-## What is it?
-AetherSX2 is an emulator of the Sony PlayStation 2(TM) / PS2(TM) console for the Android platform. You can play games which you have dumped from disc on your portable device.
+# Youtube Retro Tambayan
 
+## AetherSX2 New!
+The Fastest PS2 Emulator for Android in the Global! With this software you can play PS2 console games on your smartphone. DamonPS2 emulator can run PS2 video games smoothly on Snapdragon 835\845 smartphones (like Samsung Galaxy S9\S8\Note8\Mi6) and is compatible with more than 90% of PS2 games (with a few bugs) graphics).
 
-## What are the requirements?
-The PS2(TM) is an **extremely** complex piece of hardware, with many very powerful components, even for today. You need a high end device to achieve good performance.
+## Compatibility:
+In the 13914 PS2 game, the AetherSX2 emulator can run more than 90% of PS2 games (with a small amount of graphical glitches). And, AetherSX2 emulator is fully compatible with more than 100% of PS2 games (game screen is basically flawless).
 
-We recommend at least a Snapdragon 845-equivalent device. This means 4 large cores (Cortex-A75 level). If you only have two big cores (e.g. Snapdragon 700 series SoCs, you should not enable multi-threaded VU, and performance will suffer as a result). Devices with Mali or PowerVR GPUs will run the app, but performance will be much lower than Adreno GPUs, and the Vulkan renderer will not be available. This is because they are missing a critical feature (dual-source blending).
+## Difference between free user and paid user:
+- After payment, APP has no built-in ads
+- After payment, APP can support gamepad
+- After payment, APP can support PS2 memory card to save/load game state
+- After payment, APP can support HD1080p (3x~5x) PS2)
+- After payment, APP can support cheat code (Future)
+- After payment, APP can load/export PS2 memory card (Future, Pcxs2 compatible format)
 
-If you want to use the app on a slower device, you can try it, but games **will** run slow, especially heavier titles. You can try underclocking the CPU by setting the cycle rate to a negative number, and the cycle skip to a positive number in System settings, but this will cause games to lag internally at best, or crash at worst.
+## Supported Features:
+- Support 2X ~ 5X enhanced resolution (HD 1080p resolution)
+- Support HID gamepad keyboard
+- Support BIOS boot screen bypass
+Support Multithreading acceleration
+- Support NEON vector instruction acceleration support
+- Supports multiple ROM file formats (including: - .iso\bin\img\nrg format)
 
-### Expectations.
-This is a free app, worked on as a hobby in the developer's free time. At the time of writing, it is in very early stages and missing many useful features, however is usable for playing some games.
+## Future support functions:
+- Will support cheats code
+- Will support Frameskip
+- Will support BIOS-booting games
+- Will support 16:9\18:9
+- Will support processor HID vibration
+- Will support Mipmap
+- Support import and export file memory card password (Pcxs2 compatible format)
+- Will support MEPG2 Acceleration, ARM-v8, Vulkan API
+- Will support X86
+- Will support 95% of PS2 games to run perfectly
+In the future, for different ps2 games, DamonPS2 will run 2x~10x faster than current frame rate.
 
-It is not going to be perfect, far from it. I will continue to improve it when I have time, but please remember this is not my job, and to have realistic expectations, **especially if you do not have a high end device**.
+## Hardware Requirements:
+- Android 5.0 +
+- OpenGL ES 3.0 +
 
-As it is an early preview, you should save your game regularly in case of crashes.
+## Introduction Game ROM and BIOS:
+Due to legal restrictions, we will not be providing any games play ROMs and BIOS images for players.
 
-## Disclaimers.
-AetherSX2 should only be used to play games you own and have dumped from disc yourself. To dump your games, you can use a tool such as ImgBurn to create a .iso for the disc, and then copy across it to your device over USB.
+## Future goals:
+After a year, on a Snapdragon 660 device (or a single-core Geekbench4 Android phone greater than 1600), DamonPS2 can run 90% of all PS2 games near full frames (50FPS+), and DamonPS2 can run 90% of all ps2 games close to perfect compatibility (No Bugs Shown).
 
-PlayStation 2 and PS2 are registered trademarks of Sony Interactive Entertainment Europe Limited and in other regions. This app is not affiliated in any way with Sony Interactive Entertainment.
+Therefore, the best combination of PS emulator on mobile is DamonPS2 emulator and PPSSPP emulator. They are PS2 emulator and PSP emulator respectively. Note: DamonPS2 Emulator is just a PS2 emulator, not a PSP emulator. DamonPS2 does not have a built-in PPSSPP emulator.
 
-### The app tells me I need a BIOS.
-
-Yes, you do. A BIOS image **is required** to play games and is not optional. This image should be dumped from your own console, using a homebrew application. There are plenty of guides available online on how to dump your console's BIOS.
-
-### My games are running slow/lagging.
-Different games have very different hardware requirements, due to how much they utilized the various components of the console. You can try underclocking the CPU by setting the cycle rate to a negative number, and the cycle skip to a positive number in System settings, but this will cause games to lag internally at best, or crash at worst.
-
-### How to improve performance?
-- Make sure fastmem is enabled in System settings.
-- Enable Multi-Threaded VU1 in System settings. This will cause lower performance if your device does not have at least three "big" CPU cores.
-- Use the Vulkan renderer if you have an Adreno GPU. Note that some games will perform better with OpenGL, and may not render correctly with Vulkan. Mali GPUs are not supported by the Vulkan renderer.
-- Underclock the emulated CPU by setting the cycle rate to a negative number, and cycle skip to a positive number in System settings.
-- For some games, enabling the Preload Textures and GPU Palette conversion options in Graphics settings can improve performance.
-- If the game slows down depending on the camera angle, this may be due to GS downloads, which are very slow on mobile GPUs. You can try disabling hardware readbacks in Graphics options, but this may create some glitches in effects.
-
-### How do I customize the touchscreen controller (position/scale)?
-Press the pause or back button while ingame, and tap the controls tab in the top-right corner. You can also add additional buttons for hotkeys here, e.g. fast forward, quick load/save, etc.
-
-### The app opens in portrait mode, how do I change it to landscape?
-Turn your device around if you have auto rotation enabled. You can also force it to always use landscape in the first page of App Settings.
-
-### My Bluetooth controller isn't working.
-Currently we only support a fixed controller mapping, which is determined by your Android vendor. Custom mappings for controllers are planned in the future.
-
-### I want to set different settings for each game.
-Currently this is not possible. We plan to add this in the future.
-
-### My games have rendering glitches.
-Due to the complexity of the console's hardware, there are still plenty of issues which arise when using the hardware renderer. You can try using the software renderer for these games.
-
-### I want to save more than one state.
-This is not currently possible, we are planning to add multiple save slots in the future.
-
-### I want copy my saves from another device.
-Currently you can only import an entire memory card at once; it is not possible to import individual saves. Swiping from the left in the game list will show an "Import Memory Card" option which you can use to import a *.ps2 image of a memory card.
-
-### Where are my saves located?
-Due to scoped storage on Android 11+, we cannot place your saves in a normal directory on external storage. However, with a file explorer app, you should be able to access the `Android/data/xyz.aethersx2.android` directory, in your primary storage volume, which contains your save states and memory cards. Note that accessing this directory requires granting additional permissions to your file manager on Android 11+.
-
-### How do I add covers to the game grid?
-Place cover images in the covers directory, located in the data directory mentioned above, with the file name as the game title or serial in jpg/png format. Alternatively, you can long press in the game list and select "Choose Cover Image" to import an image.
-
-### How do I create launcher shortcuts for games?
-Long press the game in the game list, and select "Create Launcher Shortcut".
+If you want to increase game frame rate by 10~40%, remove "Thermal Engine" in android system.
