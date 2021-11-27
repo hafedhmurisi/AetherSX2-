@@ -43,8 +43,8 @@ In the future, for different ps2 games, DamonPS2 will run 2x~10x faster than cur
 Due to legal restrictions, we will not be providing any games play ROMs and BIOS images for players.
 
 ## Future goals:
-After a year, on a Snapdragon 660 device (or a single-core Geekbench4 Android phone greater than 1600), DamonPS2 can run 90% of all PS2 games near full frames (50FPS+), and DamonPS2 can run 90% of all ps2 games close to perfect compatibility (No Bugs Shown).
+After a year, on a Snapdragon 660 device (or a single-core Geekbench4 Android phone greater than 1600), AetherSX2 can run 90% of all PS2 games near full frames (60FPS+), and AetherSX2 can run 90% of all ps2 games close to perfect compatibility (No Bugs Shown).
 
-Therefore, the best combination of PS emulator on mobile is DamonPS2 emulator and PPSSPP emulator. They are PS2 emulator and PSP emulator respectively. Note: DamonPS2 Emulator is just a PS2 emulator, not a PSP emulator. DamonPS2 does not have a built-in PPSSPP emulator.
+Therefore, the best combination of PS emulator on mobile is AetherSX2 emulator and PPSSPP emulator. They are PS2 emulator and PSP emulator respectively. Note: AetherSX2 Emulator is just a PS2 emulator, not a PSP emulator. AetherSX2 does not have a built-in PPSSPP emulator.
 
 If you want to increase game frame rate by 10~40%, remove "Thermal Engine" in android system.
